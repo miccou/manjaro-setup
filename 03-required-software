@@ -2,7 +2,7 @@
 
 echo "Installing the following essential packages:"
 
-pkgs="google-chrome jre rar"
+pkgs="google-chrome jre"
 
 echo $pkgs
 
