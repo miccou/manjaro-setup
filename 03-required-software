@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Installing the following essential packages:"
+
+pkgs="google-chrome jre rar"
+
+echo $pkgs
+
+yay -S $pkgs --noconfirm
+
+echo "Installation finished!"

@@ -1,0 +1,12 @@
+
+#!/bin/bash
+sudo pacman-mirrors --country Australia
+sudo pacman-mirrors -f 0
+sudo pacman -S yay pamac --noconfirm
+sudo pacman -Syyu --noconfirm
+yay -Syyua --noconfirm
+
+yay -S timeshift gnome-disk-utility stacer-bin --noconfirm
+
+yay -Sy base-devel --noconfirm
+yay -S linux59 linux59-headers --noconfirm

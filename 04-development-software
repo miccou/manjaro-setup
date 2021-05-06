@@ -1,0 +1,9 @@
+  
+#!/bin/bash
+
+echo "Installing the following programming packages:"
+pkgs="r rstudio-desktop-bin visual-studio-code-bin "
+echo $pkgs
+yay -S $pkgs --noconfirm
+
+echo "Installation finished!"

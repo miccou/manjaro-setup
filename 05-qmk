@@ -1,0 +1,9 @@
+  
+#!/bin/bash
+
+echo "Installing QMK stuff"
+sudo pacman --needed --noconfirm -S git python-pip libffi
+python3 -m pip install --user qmk
+
+echo "Installation finished!"
+
